@@ -1,0 +1,21 @@
+# Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Java
+*.class
+*.log
+
+# OS
+.DS_Store
+
+# Agent workspace
+.agents/

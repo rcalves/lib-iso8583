@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Suppressions for the dependency-audit profile (OWASP dependency-check).
+  Every suppression must say why the finding does not apply and expire: set until="YYYY-MM-DDZ" so it is reviewed
+  again, for example:
+
+  <suppress until="2027-01-31Z">
+      <notes>CVE-XXXX-NNNN affects the Q2 server, which is excluded from the jPOS dependency.</notes>
+      <packageUrl regex="true">^pkg:maven/org\.jpos/jpos@.*$</packageUrl>
+      <cve>CVE-XXXX-NNNN</cve>
+  </suppress>
+-->
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+</suppressions>
